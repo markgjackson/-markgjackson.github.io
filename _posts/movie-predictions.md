@@ -24,7 +24,7 @@ If this exponential behavior is universal, the total revenue a movie will produc
 
 Knowing two weeks’ revenues allows you to calculate the decay constant for that movie, letting you be much more accurate. This can help you adjust advertising strategies, timing of releases, etc. If it becomes clear that a movie will not meet its revenue goal, it can be pulled from theaters early. If a particular factor (timing of release, genre, number of theaters, etc.) is found to be important, this can influence which movies to make.
 
-<h2>Part I:</h2>
+<h2>Part I: Best Fit Per Movie</h2>
 <h3>A. Decay Constant for Each Movie</h3>
 Scape movie information from BoxOfficeMojo.com
 <ul>
@@ -60,5 +60,34 @@ But there are several problems with this approach:
 <li>Hard to generalize to more sophisticated models</li>
 </ul>
 
+<h2>Part II: Linear Regression Analysis</h2>
+
+Let’s find a single exponential decay model to best represent all revenue data points. First we fit training data to curve of the form
+
+Once we trust our results are robust, can generalize to higher-order terms in equation for better fit
+<h3>A: Simple Exponential Fit</h3>
+For a curve of the form
+
+and Lasso regularization coefficient
+
+The best fit is
+
+Note that this is lower than might be expected, because slowly-decaying movies last longer and thus have more data points; gives rise to bias. The Mean training error: 2.38, and Mean testing error: 2.54  (2:1 ratio of data)
+
+<h3>B: Higher-order Modeling?</h3>
+
+We would like to generalize this to a more sophisticated model which incorporates this behavior, of the form
 
 
+This simply means fitting to a curve of this form:
+
+Results at 5th Order
+
+Mean training error: 2.29  Mean testing error: 2.27
+
+<h2>Conclusion and Future Plans</h2>
+Generalized exponential decay curve of the form
+
+can be used to accurately predict weekly movie revenues based on the first week:
+
+Plan to fit these coefficients to categories of movies
