@@ -8,8 +8,8 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Hi, this is Mark's data science blog.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[mark at fiatphysica dot com](mailto:mark@fiatphysica.com)
