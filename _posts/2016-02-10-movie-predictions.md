@@ -106,26 +106,26 @@ Note that this is lower than might be expected, because slowly-decaying movies l
 <h3>B: Higher-order Modeling?</h3>
 
 We would like to generalize this to a more sophisticated model which incorporates this behavior, of the form
-
+<p>
 <img src="http://markgjackson.github.io/images/image19.png" width="300px" height="auto">
-
+<p>
 This simply means fitting to a curve of this form:
-
+<p>
 <img src="http://markgjackson.github.io/images/image20.png" width="300px" height="auto">
-
+<p>
 Results at 5th Order show a Mean training error of 2.29 and Mean testing error of 2.27.
-
-<img src="http://markgjackson.github.io/images/image21.png" width="150px" height="auto"><img src="../images/image22.png" width="300px" height="auto">
-
+<p>
+<img src="http://markgjackson.github.io/images/image21.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image22.png" width="300px" height="auto">
+<p>
 <h2>Conclusion and Future Plans</h2>
 Generalized exponential decay curve of the form
-
+<p>
 <img src="http://markgjackson.github.io/images/image23.png" width="300px" height="auto">
-
+<p>
 which can be used to accurately predict weekly movie revenues based on the first week:
-
+<p>
 <img src="http://markgjackson.github.io/images/image24.png" width="200px" height="auto">
-
+<p>
 Later I plan to fit these coefficients to categories of movies.
 
 Thank you for your attention!
