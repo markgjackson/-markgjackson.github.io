@@ -27,6 +27,8 @@ meaning that each week gets only 56% of the previous week’s viewers.
 
 If this exponential behavior is universal, the total revenue a movie will produce could be estimated from just the first weekend’s revenue, using an average decay:
 
+<center><img src="../images/image6.png" width="300px" height="auto"></center>
+
 Knowing two weeks’ revenues allows you to calculate the decay constant for that movie, letting you be much more accurate. This can help you adjust advertising strategies, timing of releases, etc. If it becomes clear that a movie will not meet its revenue goal, it can be pulled from theaters early. If a particular factor (timing of release, genre, number of theaters, etc.) is found to be important, this can influence which movies to make.
 
 <h2>Part I: Best Fit Per Movie</h2>
@@ -39,11 +41,17 @@ Scape movie information from BoxOfficeMojo.com
 Sampled 2,500 movies
 Decay constant:  median ~ 0.43/week,  mean ~ 0.58/week
 
+<center><img src="../images/image7.png" width="200px" height="auto"><img src="../images/image8.png" width="200px" height="auto"></center>
+
 <h3>B: By Movie Type</h3>
 We can also study the decay rates as a function of the type of movie
 
+<img src="../images/image9.png" width="400px" height="auto">
+
 Decay rates by movie type show large variation: Documentary and Foreign films are sharply peaked near
 lambda ~ 0.4, others are more spread out.
+
+<img src="../images/image10.png" width="400px" height="auto">
 
 <h3>C: By Season</h4>
 We can also study the decay rates as a function of the season:
