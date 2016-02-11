@@ -6,18 +6,22 @@ You will be hearing from many presenters suggesting ways to predict movie revenu
 
 <h2>Movie Revenue Model:  Exponentially Decaying Viewers</h2>
 <center><img src="../images/image1.png" width="300px" height="auto"></center>
+
 When a movie is released, sales usually start out strong then attract less viewers as time goes by. Eventually there are so few new viewers that the studio pulls the movie from theaters. The revenue versus week appears to fit an exponential curve of the form:
 
 <center><img src="../images/image2.png" width="300px" height="auto"></center>
 
 Figure 1 shows an example; this is not unusual, this is literally the first movie considered. We can get a better estimate of how exponential the revenue is by re-writing this as
 
+<center><img src="../images/image3.png" width="300px" height="auto"></center>
 
+An exactly exponential revenue curve will then yield a straight line with slope lambda. For this example,
 
-An exactly exponential revenue curve will then yield a straight line with slope lambda. For this example,   
+<center><img src="../images/image4.png" width="300px" height="auto"></center>
 
+meaning that each week gets only 56% of the previous week’s viewers.
 
-meaning that each week gets only 56% of the previous week’s viewers
+<center><img src="../images/image5.png" width="300px" height="auto"></center>
 
 <h2>Why is this Important?</h2>
 
