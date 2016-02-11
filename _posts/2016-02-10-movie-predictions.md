@@ -51,12 +51,12 @@ Decay constant:  median ~ 0.43/week,  mean ~ 0.58/week
 <h3>B: By Movie Type</h3>
 We can also study the decay rates as a function of the type of movie
 
-<img src="http://markgjackson.github.io/images/image9.png" width="400px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image9.png" width="400px" height="auto"></center>
 
 Decay rates by movie type show large variation: Documentary and Foreign films are sharply peaked near
 lambda ~ 0.4, others are more spread out.
 
-<img src="http://markgjackson.github.io/images/image10.png" width="400px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image10.png" width="400px" height="auto"></center>
 
 <h3>C: By Season</h4>
 We can also study the decay rates as a function of the season:
@@ -68,9 +68,9 @@ We can also study the decay rates as a function of the season:
 
 There did not seem to be significant variation with season.
 <p>
-<img src="http://markgjackson.github.io/images/image11.png" width="400px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image11.png" width="400px" height="auto"></center>
 <p>
-<img src="http://markgjackson.github.io/images/image12.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image13.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image14.png" width="150px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image12.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image13.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image14.png" width="150px" height="auto"></center>
 <p>
 Summary for Part I: Knowing one week’s revenue can give you an estimate of the total revenue, assuming an average decay constant. This constant depends upon genre and possibly other factors.
 
@@ -93,38 +93,38 @@ Once we trust our results are robust, can generalize to higher-order terms in eq
 <h3>A: Simple Exponential Fit</h3>
 For a curve of this form, with Lasso regularization coefficient
 
-<img src="http://markgjackson.github.io/images/image17.png" width="100px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image17.png" width="100px" height="auto"></center>
 
 The best fit is
 
-<img src="http://markgjackson.github.io/images/image18.png" width="100px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image18.png" width="100px" height="auto"></center>
 
 Note that this is lower than might be expected, because slowly-decaying movies last longer and thus have more data points; gives rise to bias. The Mean training error: 2.38, and Mean testing error: 2.54  (2:1 ratio of data)
 
-<img src="http://markgjackson.github.io/images/image15.png" width="400px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image15.png" width="400px" height="auto"></center>
 
 <h3>B: Higher-order Modeling?</h3>
 
 We would like to generalize this to a more sophisticated model which incorporates this behavior, of the form
 <p>
-<img src="http://markgjackson.github.io/images/image19.png" width="300px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image19.png" width="300px" height="auto"></center>
 <p>
 This simply means fitting to a curve of this form:
 <p>
-<img src="http://markgjackson.github.io/images/image20.png" width="300px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image20.png" width="300px" height="auto"></center>
 <p>
 Results at 5th Order show a Mean training error of 2.29 and Mean testing error of 2.27.
 <p>
-<img src="http://markgjackson.github.io/images/image21.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image22.png" width="300px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image21.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image22.png" width="300px" height="auto"></center>
 <p>
 <h2>Conclusion and Future Plans</h2>
 Generalized exponential decay curve of the form
 <p>
-<img src="http://markgjackson.github.io/images/image23.png" width="300px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image23.png" width="300px" height="auto"></center>
 <p>
 which can be used to accurately predict weekly movie revenues based on the first week:
 <p>
-<img src="http://markgjackson.github.io/images/image24.png" width="200px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image24.png" width="200px" height="auto"></center>
 <p>
 Later I plan to fit these coefficients to categories of movies.
 
