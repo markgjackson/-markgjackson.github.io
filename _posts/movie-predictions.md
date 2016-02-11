@@ -80,9 +80,9 @@ But there are several problems with this approach:
 <h2>Part II: Linear Regression Analysis</h2>
 
 Let’s find a single exponential decay model to best represent all revenue data points. First we fit training data to curve of the form
-
+<p>
 <img src="../images/image16.png" width="250px" height="auto">
-
+<p>
 Once we trust our results are robust, can generalize to higher-order terms in equation for better fit.
 
 <h3>A: Simple Exponential Fit</h3>
