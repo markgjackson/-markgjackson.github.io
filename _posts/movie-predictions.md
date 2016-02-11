@@ -81,7 +81,7 @@ But there are several problems with this approach:
 
 Let’s find a single exponential decay model to best represent all revenue data points. First we fit training data to curve of the form
 
-<img src="../images/image16.png" width="300px" height="auto">
+<img src="../images/image16.png" width="200px" height="auto">
 
 Once we trust our results are robust, can generalize to higher-order terms in equation for better fit.
 
