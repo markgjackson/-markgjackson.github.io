@@ -110,7 +110,7 @@ This simply means fitting to a curve of this form:
 
 Results at 5th Order show a Mean training error of 2.29 and Mean testing error of 2.27.
 
-<img src="../images/image21.png" width="200px" height="auto"><img src="../images/image22.png" width="200px" height="auto">
+<img src="../images/image21.png" width="150px" height="auto"><img src="../images/image22.png" width="300px" height="auto">
 
 <h2>Conclusion and Future Plans</h2>
 Generalized exponential decay curve of the form
@@ -119,6 +119,6 @@ Generalized exponential decay curve of the form
 
 can be used to accurately predict weekly movie revenues based on the first week:
 
-<img src="../images/image24.png" width="300px" height="auto">
+<img src="../images/image24.png" width="200px" height="auto">
 
 Plan to fit these coefficients to categories of movies
