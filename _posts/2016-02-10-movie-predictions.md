@@ -1,3 +1,8 @@
+---
+layout: post
+title: Movie Revenue Projections
+---
+
 <h1>Movie Revenue Projections</h1>
 
 Dear Studio Marketing Executives,
