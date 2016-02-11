@@ -27,7 +27,7 @@ meaning that each week gets only 56% of the previous week’s viewers.
 
 If this exponential behavior is universal, the total revenue a movie will produce could be estimated from just the first weekend’s revenue, using an average decay:
 
-<center><img src="../images/image6.png" width="300px" height="auto"></center>
+<center><img src="../images/image6.png" width="100px" height="auto"></center>
 
 Knowing two weeks’ revenues allows you to calculate the decay constant for that movie, letting you be much more accurate. This can help you adjust advertising strategies, timing of releases, etc. If it becomes clear that a movie will not meet its revenue goal, it can be pulled from theaters early. If a particular factor (timing of release, genre, number of theaters, etc.) is found to be important, this can influence which movies to make.
 
@@ -62,6 +62,10 @@ We can also study the decay rates as a function of the season:
 </ul>
 
 There did not seem to be significant variation with season.
+
+<center><img src="../images/image11.png" width="400px" height="auto"></center>
+
+<img src="../images/image12.png" width="150px" height="auto"><img src="../images/image13.png" width="150px" height="auto"><img src="../images/image14.png" width="150px" height="auto">
 
 Summary for Part I: Knowing one week’s revenue can give you an estimate of the total revenue, assuming an average decay constant. This constant depends upon genre and possibly other factors.
 
