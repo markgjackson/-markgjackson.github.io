@@ -7,7 +7,7 @@ You will be hearing from many presenters suggesting ways to predict movie revenu
 <h2>Movie Revenue Model:  Exponentially Decaying Viewers</h2>
 
 When a movie is released, sales usually start out strong then attract less viewers as time goes by. Eventually there are so few new viewers that the studio pulls the movie from theaters. The revenue versus week appears to fit an exponential curve of the form:
-
+<center><img src="images/image1.png"></center>
 
 Figure 1 shows an example; this is not unusual, this is literally the first movie considered. We can get a better estimate of how exponential the revenue is by re-writing this as
 
