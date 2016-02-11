@@ -117,8 +117,10 @@ Generalized exponential decay curve of the form
 
 <img src="../images/image23.png" width="300px" height="auto">
 
-can be used to accurately predict weekly movie revenues based on the first week:
+which can be used to accurately predict weekly movie revenues based on the first week:
 
 <img src="../images/image24.png" width="200px" height="auto">
 
-Plan to fit these coefficients to categories of movies
+Later I plan to fit these coefficients to categories of movies.
+
+Thank you for your attention!
