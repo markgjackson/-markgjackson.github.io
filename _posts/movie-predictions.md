@@ -62,7 +62,7 @@ We can also study the decay rates as a function of the season:
 </ul>
 
 There did not seem to be significant variation with season.
-
+<p>
 <img src="../images/image11.png" width="400px" height="auto">
 <p>
 <img src="../images/image12.png" width="150px" height="auto"><img src="../images/image13.png" width="150px" height="auto"><img src="../images/image14.png" width="150px" height="auto">
