@@ -66,7 +66,7 @@ There did not seem to be significant variation with season.
 <img src="../images/image11.png" width="400px" height="auto">
 <p>
 <img src="../images/image12.png" width="150px" height="auto"><img src="../images/image13.png" width="150px" height="auto"><img src="../images/image14.png" width="150px" height="auto">
-
+<p>
 Summary for Part I: Knowing one week’s revenue can give you an estimate of the total revenue, assuming an average decay constant. This constant depends upon genre and possibly other factors.
 
 
