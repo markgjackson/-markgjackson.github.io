@@ -63,8 +63,8 @@ We can also study the decay rates as a function of the season:
 
 There did not seem to be significant variation with season.
 
-<center><img src="../images/image11.png" width="400px" height="auto"></center>
-
+<img src="../images/image11.png" width="400px" height="auto">
+<p>
 <img src="../images/image12.png" width="150px" height="auto"><img src="../images/image13.png" width="150px" height="auto"><img src="../images/image14.png" width="150px" height="auto">
 
 Summary for Part I: Knowing one week’s revenue can give you an estimate of the total revenue, assuming an average decay constant. This constant depends upon genre and possibly other factors.
@@ -81,15 +81,22 @@ But there are several problems with this approach:
 
 Let’s find a single exponential decay model to best represent all revenue data points. First we fit training data to curve of the form
 
-Once we trust our results are robust, can generalize to higher-order terms in equation for better fit
-<h3>A: Simple Exponential Fit</h3>
-For a curve of the form
+<img src="../images/image16.png" width="300px" height="auto">
 
-and Lasso regularization coefficient
+Once we trust our results are robust, can generalize to higher-order terms in equation for better fit.
+
+<h3>A: Simple Exponential Fit</h3>
+For a curve of this form, with Lasso regularization coefficient
+
+<img src="../images/image17.png" width="100px" height="auto">
 
 The best fit is
 
+<img src="../images/image18.png" width="100px" height="auto">
+
 Note that this is lower than might be expected, because slowly-decaying movies last longer and thus have more data points; gives rise to bias. The Mean training error: 2.38, and Mean testing error: 2.54  (2:1 ratio of data)
+
+<img src="../images/image15.png" width="400px" height="auto">
 
 <h3>B: Higher-order Modeling?</h3>
 
