@@ -3,8 +3,6 @@ layout: post
 title: Movie Revenue Projections
 ---
 
-<h1>Movie Revenue Projections</h1>
-
 Dear Studio Marketing Executives,
 
 You will be hearing from many presenters suggesting ways to predict movie revenue based on properties of the movie. But to see if the predictions turn out to be true will take several weeks, and by then it may be too late! Thus I would like to present some work that I have been doing to predict movie revenues based on the first few weeks’ return. This prediction is based on the weekly evolution of the revenue.
