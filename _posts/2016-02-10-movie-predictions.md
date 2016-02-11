@@ -115,7 +115,7 @@ This simply means fitting to a curve of this form:
 <p>
 Results at 5th Order show a Mean training error of 2.29 and Mean testing error of 2.27.
 <p>
-<center><img src="http://markgjackson.github.io/images/image21.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image22.png" width="300px" height="auto"></center>
+<center><img src="http://markgjackson.github.io/images/image21.png" width="250" height="auto"> <hspace=0.5in> <img src="http://markgjackson.github.io/images/image22.png" width="300px" height="auto"></center>
 <p>
 <h2>Conclusion and Future Plans</h2>
 Generalized exponential decay curve of the form
