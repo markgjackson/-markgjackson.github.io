@@ -10,7 +10,7 @@ Some information about you!
 
 Hi, this is Mark's data science blog.
 
-View my post about <a href="_posts/movie-predictions.md">movie predictions</a>. 
+View my post about <a href="/_posts/movie-predictions.md">movie predictions</a>. 
 
 ### Contact me
 
