@@ -46,7 +46,7 @@ Scape movie information from BoxOfficeMojo.com
 Sampled 2,500 movies
 Decay constant:  median ~ 0.43/week,  mean ~ 0.58/week
 
-<center><img src="http://markgjackson.github.io/images/image7.png" width="200px" height="auto"><img src="http://markgjackson.github.io/images/image8.png" width="200px" height="auto"></center>
+<center><img src="http://markgjackson.github.io/images/image7.png" width="300px" height="auto"><img src="http://markgjackson.github.io/images/image8.png" width="300px" height="auto"></center>
 
 <h3>B: By Movie Type</h3>
 We can also study the decay rates as a function of the type of movie
@@ -58,7 +58,7 @@ lambda ~ 0.4, others are more spread out.
 
 <center><img src="http://markgjackson.github.io/images/image10.png" width="400px" height="auto"></center>
 
-<h3>C: By Season</h4>
+<h3>C: By Season</h3>
 We can also study the decay rates as a function of the season:
 <ul>
 <li>Summer (June, July, August)</li>
@@ -68,9 +68,9 @@ We can also study the decay rates as a function of the season:
 
 There did not seem to be significant variation with season.
 <p>
-<center><img src="http://markgjackson.github.io/images/image11.png" width="400px" height="auto"></center>
+<center><img src="http://markgjackson.github.io/images/image11.png" width="500px" height="auto"></center>
 <p>
-<center><img src="http://markgjackson.github.io/images/image12.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image13.png" width="150px" height="auto"><img src="http://markgjackson.github.io/images/image14.png" width="150px" height="auto"></center>
+<center><img src="http://markgjackson.github.io/images/image12.png" width="200px" height="auto"><img src="http://markgjackson.github.io/images/image13.png" width="200px" height="auto"><img src="http://markgjackson.github.io/images/image14.png" width="200px" height="auto"></center>
 <p>
 Summary for Part I: Knowing one week’s revenue can give you an estimate of the total revenue, assuming an average decay constant. This constant depends upon genre and possibly other factors.
 
@@ -86,7 +86,7 @@ But there are several problems with this approach:
 
 Let’s find a single exponential decay model to best represent all revenue data points. First we fit training data to curve of the form
 <p><p>
-<img src="http://markgjackson.github.io/images/image16.png" width="250px" height="auto">
+<center><img src="http://markgjackson.github.io/images/image16.png" width="250px" height="auto"></center>
 <p>
 Once we trust our results are robust, can generalize to higher-order terms in equation for better fit.
 
