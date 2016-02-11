@@ -27,7 +27,7 @@ meaning that each week gets only 56% of the previous week’s viewers.
 
 If this exponential behavior is universal, the total revenue a movie will produce could be estimated from just the first weekend’s revenue, using an average decay:
 
-<center><img src="../images/image6.png" width="100px" height="auto"></center>
+<center><img src="../images/image6.png" width="150px" height="auto"></center>
 
 Knowing two weeks’ revenues allows you to calculate the decay constant for that movie, letting you be much more accurate. This can help you adjust advertising strategies, timing of releases, etc. If it becomes clear that a movie will not meet its revenue goal, it can be pulled from theaters early. If a particular factor (timing of release, genre, number of theaters, etc.) is found to be important, this can influence which movies to make.
 
@@ -102,16 +102,23 @@ Note that this is lower than might be expected, because slowly-decaying movies l
 
 We would like to generalize this to a more sophisticated model which incorporates this behavior, of the form
 
+<img src="../images/image19.png" width="300px" height="auto">
 
 This simply means fitting to a curve of this form:
 
-Results at 5th Order
+<img src="../images/image20.png" width="300px" height="auto">
 
-Mean training error: 2.29  Mean testing error: 2.27
+Results at 5th Order show a Mean training error of 2.29 and Mean testing error of 2.27.
+
+<img src="../images/image21.png" width="200px" height="auto"><img src="../images/image22.png" width="200px" height="auto">
 
 <h2>Conclusion and Future Plans</h2>
 Generalized exponential decay curve of the form
 
+<img src="../images/image23.png" width="300px" height="auto">
+
 can be used to accurately predict weekly movie revenues based on the first week:
+
+<img src="../images/image24.png" width="300px" height="auto">
 
 Plan to fit these coefficients to categories of movies
